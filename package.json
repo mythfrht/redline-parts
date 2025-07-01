@@ -1,0 +1,19 @@
+{
+  "name": "redline-parts",
+  "version": "1.0.0",
+  "description": "This repository contains example front-end code for a demo car parts website. The `website/` folder holds an HTML/CSS/JS project that can be served as a static site.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "htmlhint website/index.html && stylelint 'website/css/*.css'",
+    "test": "npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "htmlhint": "^1.6.3",
+    "stylelint": "^16.21.0",
+    "stylelint-config-standard": "^38.0.0"
+  }
+}
