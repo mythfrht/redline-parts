@@ -6,6 +6,8 @@ This repository contains example front-end code for a demo car parts website. Th
 
 Open `website/index.html` in a modern browser to view the site. No additional build steps are required.
 
+To run lint checks, install dependencies with `npm install` and then run `npm test`.
+
 ## Project structure
 
 ```
